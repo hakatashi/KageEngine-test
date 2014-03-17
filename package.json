@@ -1,0 +1,16 @@
+{
+  "name": "kage-hakataengine",
+  "version": "0.0.0",
+  "description": "",
+  "main": "kage.js",
+  "dependencies": {
+    "optimist": "~0.6.1",
+    "paper": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hakatashi",
+  "license": "MIT"
+}

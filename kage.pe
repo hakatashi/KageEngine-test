@@ -1,0 +1,6 @@
+New()
+Reencode("unicode")
+Import("u*.svg")
+SetFontNames("KageGothic-test", "KageGothic-test", "KageGothic-test") 
+Generate("KageGothic-test.otf")
+Quit()
