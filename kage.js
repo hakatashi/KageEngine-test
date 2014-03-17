@@ -65,6 +65,7 @@ for (name in KAGE) {
 			if (params[0] == 99) {
 				// referenced glyph name lay in 8th parameter
 				var refer = params[7].split('@')[0];
+				// var refer = params[7];
 
 				if (KAGE[refer] != undefined) {
 					// invoke normalization recursively
@@ -172,5 +173,8 @@ for (name in KAGE) {
 	var svg = paper.project.exportSVG({asString: true});
 	var output = __dirname + '/svg/' + name + '.svg';
 	fs.writeFileSync(output, svg);
+
+	delete canvas;
+	paper.project.remove();
 }
 
