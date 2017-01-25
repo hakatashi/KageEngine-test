@@ -5,7 +5,7 @@
   "main": "kage.js",
   "dependencies": {
     "optimist": "~0.6.1",
-    "paper": "~0.9.16"
+    "paper": "~0.10.2"
   },
   "devDependencies": {},
   "scripts": {
